@@ -50,7 +50,9 @@ git clone https://github.com/yourusername/dotfiles.git
 ---
 
 🎨 Screenshots
+
 ![Terminal Screenshot](https://i.imgur.com/T7YrTZi.png)
+
 ---
 
 📦 Future Additions
