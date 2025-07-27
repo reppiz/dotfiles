@@ -1,0 +1,22 @@
+[general]
+import = ["themes/everforest_dark.toml"]
+live_config_reload = true
+
+[terminal]
+shell = {program = "/usr/bin/zsh"}
+
+[font.normal]
+family = "JetbrainsMono Nerd Font"
+
+[keyboard]
+bindings = [{key = "V", mods = "Control", action = "Paste"}, {key = "C", mods = "Control", action = "Copy"}]
+
+[window]
+decorations = "Full"
+opacity = 0.95
+
+[env]
+TERM = "xterm-256color"
+
+[scrolling]
+history = 50000
