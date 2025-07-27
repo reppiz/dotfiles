@@ -8,6 +8,7 @@ These dotfiles power my development setup with customized themes, tooling, and w
 
 
 ## 🌐 What's Inside
+```
 ~/
 ├── .zshrc
 └── .config
@@ -16,7 +17,7 @@ These dotfiles power my development setup with customized themes, tooling, and w
         └── themes
           ├── catppuccin-macchiato.toml
           └── everforest_dark.toml
-
+```
 ---
 
 
