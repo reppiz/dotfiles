@@ -36,9 +36,9 @@ To get the most out of this setup, make sure the following tools are installed:
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/dotfiles.git
-   ```
+```bash
+git clone https://github.com/yourusername/dotfiles.git
+```
 2. Symlink the dotfiles into your system (optional but recommended):
 ```bash
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
