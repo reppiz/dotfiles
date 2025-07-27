@@ -6,7 +6,6 @@ These dotfiles power my development setup with customized themes, tooling, and w
 
 ---
 
-
 ## 🌐 What's Inside
 ```
 ~/
@@ -15,11 +14,16 @@ These dotfiles power my development setup with customized themes, tooling, and w
     └── alacritty
         ├── alacritty.toml
         └── themes
-          ├── catppuccin-macchiato.toml
-          └── everforest_dark.toml
+            ├── catppuccin-macchiato.toml
+            └── everforest_dark.toml
 ```
 ---
 
+## 💡 About These Dotfiles
+
+There are aliases defined in the .zshrc file. Please review them and edit/remove to your liking.
+
+---
 
 ## ⚙️ Dependencies
 
@@ -40,16 +44,14 @@ To get the most out of this setup, make sure the following tools are installed:
 ```bash
 git clone https://github.com/yourusername/dotfiles.git
 ```
-2. Symlink the dotfiles into your system (optional but recommended):
-```bash
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.config/alacritty ~/.config/alacritty
-```
-3. Make sure all dependencies are installed and available in your `$PATH`.
+2. Make sure all dependencies are installed and available in your `$PATH`.
+3. Add or change your alacritty theme inside of `~/.config/alacritty/alacritty.toml` and edit `[general.import]` variable. 
 
+---
 
 🎨 Screenshots
-
+![Terminal Screenshot](https://i.imgur.com/T7YrTZi.png)
+---
 
 📦 Future Additions
 - NeoVim config
